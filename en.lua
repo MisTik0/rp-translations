@@ -3590,6 +3590,12 @@ local my_language = {
 	property_deleted = "~r~Property deleted.",
 	you_collected_x_quality_x = "You collected ~b~%sx %s~w~ with a quality of ~g~%s%%~w~.",
 	emergency_stock = "Emergency stock",
+	-- Pegasus
+	floor_peg_garage = "Garage",
+    floor_peg_home = "Home",
+    floor_peg_office = "Office",
+    floor_peg_open = "Open space",
+    floor_peg_room = "Meeting room",
 }
 
 AddLanguage("en", my_language)
