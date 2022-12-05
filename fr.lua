@@ -1925,6 +1925,7 @@ local my_language = {
 	settings = "Options",
 	map = "Carte",
 	disable_idle_cam = "Désactiver le mode inactif des caméras",
+	break_inventory = "Pouvoir parler avec l'inventaire ouvert",
 	show_street_labels = "Afficher les noms de rue (uniquement en véhicule)",
 	keep_flashlight_on = "Garder lampe-torche allumée",
 	call_taken_notifications = "Notifications appel pris",
@@ -3600,12 +3601,19 @@ local my_language = {
 	press_key_to_make_it_rain = "Appuyez sur ~y~G~w~ pour lancer des billets.",
 	hold_key_to_spray_champ = "Maintenez ~y~G~w~ pour vaporiser du champagne.",
 	press_key_leafblower = "Appuyez sur ~y~G~w~ pour utiliser le souffleur à feuilles.",
+	hold_key_to_pee = "Maintenez ~INPUT_DETONATE~ pour uriner.",
+	press_key_to_stun = "Appuyez sur ~INPUT_DETONATE~ pour 'utiliser' le tazer.",
+	press_key_to_vape = "Maintenez ~INPUT_DETONATE~ pour vapoter.",
+	press_key_to_camera = "Appuyez sur ~INPUT_DETONATE~ pour utiliser le flash de la caméra.",
+	press_key_to_make_it_rain = "Maintenez ~INPUT_DETONATE~ pour lancer des billets.",
+	hold_key_to_spray_champ = "Maintenez ~INPUT_DETONATE~ pour vaporiser du champagne.",
+	press_key_leafblower = "Maintenez ~INPUT_DETONATE~ pour utiliser le souffleur à feuilles.",
   	-- Pegasus
 	floor_peg_garage = "Garage",
-  	floor_peg_home = "Accueil",
-  	floor_peg_office = "Bureau",
-  	floor_peg_open = "Open space",
-  	floor_peg_room = "Salle de réunion",
+  floor_peg_home = "Accueil",
+  floor_peg_office = "Bureau",
+  floor_peg_open = "Open space",
+  floor_peg_room = "Salle de réunion",
 }
 
 AddLanguage("fr", my_language)

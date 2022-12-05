@@ -1925,6 +1925,7 @@ local my_language = {
 	settings = "Options",
 	map = "Map",
 	disable_idle_cam = "Disable idle cameras",
+	break_inventory = "Be able to speak with the inventory open",
 	show_street_labels = "Show street labels (while in a car only)",
 	keep_flashlight_on = "Keep flashlight on",
 	call_taken_notifications = "Notifications call taken",
@@ -3600,12 +3601,19 @@ local my_language = {
 	press_key_to_make_it_rain = "Press ~y~G~w~ to make it rain.",
 	hold_key_to_spray_champ = "Hold ~y~G~w~ to spray champagne",
 	press_key_leafblower = "Press ~y~G~w~ to use the leaf blower.",
-	-- Pegasus
+	hold_key_to_pee = "Hold ~INPUT_DETONATE~ to pee.",
+	press_key_to_stun = "Press ~INPUT_DETONATE~ to 'use' stun gun.",
+	press_key_to_vape = "Hold ~INPUT_DETONATE~ to vape.",
+	press_key_to_camera = "Press ~INPUT_DETONATE~ to use camera flash.",
+	press_key_to_make_it_rain = "Hold ~INPUT_DETONATE~ to make it rain.",
+	hold_key_to_spray_champ = "Hold ~INPUT_DETONATE~ to spray champagne",
+	press_key_leafblower = "Hold ~INPUT_DETONATE~ to use the leaf blower.",
+  	-- Pegasus
 	floor_peg_garage = "Garage",
-  	floor_peg_home = "Home",
-  	floor_peg_office = "Office",
-  	floor_peg_open = "Open space",
-  	floor_peg_room = "Meeting room",
+  floor_peg_home = "Home",
+  floor_peg_office = "Office",
+  floor_peg_open = "Open space",
+  floor_peg_room = "Meeting room",
 }
 
 AddLanguage("en", my_language)
